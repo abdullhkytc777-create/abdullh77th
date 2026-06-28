@@ -1,35 +1,66 @@
-abdullah = {
-    "name": "Abdullah Hashem",
-    "pronouns": ["he", "him"],
-    "languages": ["Python", "C++"],
-    "ask_me_about": [
-        "cybersecurity",
-        "penetration testing",
-        "network security",
-        "secure coding",
-        "scripting and automation",
-        "software development"
-    ],
-    "technologies": {
-        "ide_and_editors": ["Visual Studio", "VS Code"],
-        "cybersecurity_tools": {
-            "analysis": ["Password Strength Evaluation", "Phishing Detection"],
-            "practices": ["Network Monitoring", "Vulnerability Assessment"]
-        },
-        "development_tools": {
-            "compilers": ["g++", "GCC"],
-            "environments": ["Windows Development Environment"]
+class AbdullahHashem:
+    def __init__(self):
+        self.name = "Abdullah Hashem"
+        self.pronouns = ["he", "him"]
+        self.location = "Egypt 🇪🇬"
+
+        self.education = {
+            "university": "Sasconi University",
+            "faculty": "Faculty of Computers and Information",
+            "specialization": "Cyber Security"
         }
-    },
-    "architecture": {
-        "concepts": ["Secure System Design", "Object-Oriented Programming (OOP)"],
-        "data": ["Algorithms", "Data Structures"]
-    },
-    "education": {
-        "university": "Saxony University",
-        "faculty": "Computers and Information",
-        "major": "Cybersecurity"
-    },
-    "current_focus": "Mastering Python & C++ while deep-diving into Cybersecurity & Secure Software Development",
-    "fun_fact": "Most bugs disappear after a cup of coffee and fixing that one missing semicolon in C++"
-}
+
+        self.languages = [
+            "Python",
+            "C++"
+        ]
+
+        self.ask_me_about = [
+            "Cyber Security",
+            "Python",
+            "C++",
+            "Linux",
+            "Networking",
+            "Problem Solving"
+        ]
+
+        self.skills = {
+            "Programming": [
+                "Python",
+                "C++"
+            ],
+            "Cyber Security": [
+                "Network Security",
+                "Linux Basics",
+                "Ethical Hacking Fundamentals"
+            ],
+            "Tools": [
+                "Git",
+                "GitHub",
+                "VS Code"
+            ]
+        }
+
+        self.currently_learning = [
+            "Advanced Python",
+            "Advanced C++",
+            "Penetration Testing",
+            "Web Security",
+            "Linux Administration"
+        ]
+
+        self.current_focus = (
+            "Building cybersecurity tools with Python "
+            "and becoming a professional Cyber Security Engineer."
+        )
+
+        self.goal = (
+            "Become a Penetration Tester and Security Researcher."
+        )
+
+    def __str__(self):
+        return f"{self.name} | Cyber Security Student | Python & C++ Developer"
+
+
+me = AbdullahHashem()
+print(me)
