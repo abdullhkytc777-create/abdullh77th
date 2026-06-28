@@ -1,66 +1,55 @@
 class AbdullahHashem:
     def __init__(self):
         self.name = "Abdullah Hashem"
-        self.pronouns = ["he", "him"]
-        self.location = "Egypt 🇪🇬"
+        self.role = "Cyber Security Student"
 
         self.education = {
-            "university": "Sasconi University",
-            "faculty": "Faculty of Computers and Information",
-            "specialization": "Cyber Security"
+            "University": "Saxony Egypt University",
+            "Faculty": "Faculty of Computers and Information",
+            "Major": "Cyber Security"
         }
 
-        self.languages = [
-            "Python",
-            "C++"
-        ]
-
-        self.ask_me_about = [
-            "Cyber Security",
+        self.programming_languages = [
             "Python",
             "C++",
+            "Java"
+        ]
+
+        self.currently_learning = [
+            "Computer Networks",
+            "Java",
+            "Cyber Security",
             "Linux",
-            "Networking",
+            "Data Structures & Algorithms"
+        ]
+
+        self.interests = [
+            "Cyber Security",
+            "Ethical Hacking",
+            "Network Security",
+            "Python Development",
             "Problem Solving"
         ]
 
-        self.skills = {
-            "Programming": [
-                "Python",
-                "C++"
-            ],
-            "Cyber Security": [
-                "Network Security",
-                "Linux Basics",
-                "Ethical Hacking Fundamentals"
-            ],
-            "Tools": [
-                "Git",
-                "GitHub",
-                "VS Code"
-            ]
-        }
-
-        self.currently_learning = [
-            "Advanced Python",
-            "Advanced C++",
-            "Penetration Testing",
-            "Web Security",
-            "Linux Administration"
+        self.tools = [
+            "VS Code",
+            "Git",
+            "GitHub"
         ]
 
         self.current_focus = (
-            "Building cybersecurity tools with Python "
-            "and becoming a professional Cyber Security Engineer."
+            "Learning Computer Networks, Java, and Cyber Security "
+            "while improving my Python and C++ skills."
         )
 
         self.goal = (
-            "Become a Penetration Tester and Security Researcher."
+            "To become a Professional Cyber Security Engineer "
+            "and build powerful security tools with Python."
         )
 
-    def __str__(self):
-        return f"{self.name} | Cyber Security Student | Python & C++ Developer"
+    def say_hi(self):
+        print("Welcome to my GitHub profile! 👋")
 
 
 me = AbdullahHashem()
-print(me)
+me.say_hi()
