@@ -1,55 +1,76 @@
-class AbdullahHashem:
-    def __init__(self):
-        self.name = "Abdullah Hashem"
-        self.role = "Cyber Security Student"
+👋 Hi, I'm Abdullah Hashem
 
-        self.education = {
-            "University": "Saxony Egypt University",
-            "Faculty": "Faculty of Computers and Information",
-            "Major": "Cyber Security"
-        }
+🎓 Cyber Security Student at Saxony Egypt University
+💻 Passionate about Cyber Security & Software Development
+📍 Egypt 🇪🇬
 
-        self.programming_languages = [
-            "Python",
-            "C++",
-            "Java"
-        ]
+---
 
-        self.currently_learning = [
-            "Computer Networks",
-            "Java",
-            "Cyber Security",
-            "Linux",
-            "Data Structures & Algorithms"
-        ]
+🚀 About Me
 
-        self.interests = [
-            "Cyber Security",
-            "Ethical Hacking",
-            "Network Security",
-            "Python Development",
-            "Problem Solving"
-        ]
+- 🎓 Faculty of Computers and Information
+- 🛡️ Major: Cyber Security
+- 🌱 Currently learning Computer Networks, Java, Linux, and Cyber Security
+- 💡 I enjoy solving problems and building projects with Python.
+- 🎯 Goal: Become a Professional Cyber Security Engineer.
 
-        self.tools = [
-            "VS Code",
-            "Git",
-            "GitHub"
-        ]
+---
 
-        self.current_focus = (
-            "Learning Computer Networks, Java, and Cyber Security "
-            "while improving my Python and C++ skills."
-        )
+💻 Programming Languages
 
-        self.goal = (
-            "To become a Professional Cyber Security Engineer "
-            "and build powerful security tools with Python."
-        )
+- 🐍 Python
+- ⚙️ C++
+- ☕ Java
 
-    def say_hi(self):
-        print("Welcome to my GitHub profile! 👋")
+---
+
+🛠️ Tools & Technologies
+
+- Visual Studio Code
+- Visual Studio
+- Git
+- GitHub
+- Linux
+- Windows
+
+---
+
+📚 Currently Learning
+
+- Computer Networks
+- Cyber Security
+- Linux
+- Java
+- Data Structures & Algorithms
+
+---
+
+🎯 Interests
+
+- Ethical Hacking
+- Network Security
+- Penetration Testing
+- Python Automation
+- Secure Coding
+
+---
+
+📈 GitHub Goals
+
+- ✅ Build Python Projects
+- ✅ Improve C++ Skills
+- ✅ Learn Java
+- ✅ Share Open Source Projects
+- ✅ Become a Cyber Security Engineer
 
 
-me = AbdullahHashem()
-me.say_hi()
+  ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white
+---
+
+«"Keep Learning. Keep Building. Keep Securing. 🔐"»
